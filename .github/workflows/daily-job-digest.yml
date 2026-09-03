@@ -7,6 +7,9 @@ on:
     - cron: "0 3 * * *"
   workflow_dispatch: {}   # lets you also trigger it manually from the Actions tab
 
+permissions:
+  contents: write   # without this, GITHUB_TOKEN is read-only and the push step 403s
+
 jobs:
   run-digest:
     runs-on: ubuntu-latest
