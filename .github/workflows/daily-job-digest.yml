@@ -23,7 +23,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run job digest script
-        run: python job_digest-2.py
+        run: python job_digest.py
 
       - name: Commit updated job_digest.json back to the repo
         run: |
