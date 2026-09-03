@@ -1,0 +1,34 @@
+name: Daily Job Digest
+
+on:
+  schedule:
+    # Runs at 3:00 AM UTC = 8:30 AM IST. Cron syntax is UTC — GitHub
+    # Actions doesn't support IST directly, so this line is pre-adjusted.
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}   # lets you also trigger it manually from the Actions tab
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run job digest script
+        run: python job_digest.py
+
+      - name: Commit updated job_digest.json back to the repo
+        run: |
+          git config user.name "job-digest-bot"
+          git config user.email "actions@github.com"
+          git add job_digest.json
+          git diff --staged --quiet || git commit -m "Update job digest $(date -u +%Y-%m-%d)"
+          git push
