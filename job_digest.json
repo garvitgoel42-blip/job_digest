@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T07:46:40.315145+00:00",
-  "total_matches": 1,
+  "generated_at": "2026-09-19T07:39:56.777650+00:00",
+  "total_matches": 2,
   "jobs": [
     {
       "source": "Lever:meesho",
@@ -10,6 +10,59 @@
       "url": "https://jobs.lever.co/meesho/7d9af9b5-c1c7-48ec-bbb5-9b25e49f6596",
       "location": "Bangalore, Karnataka",
       "score": 7
+    },
+    {
+      "source": "Remotive",
+      "company": "Lemon.io",
+      "title": "Senior Data Scientist",
+      "tags": [
+        ".Net",
+        "android",
+        "C",
+        "C#",
+        "C++",
+        "golang",
+        "ios",
+        "java",
+        "javascript",
+        "node.js",
+        "php",
+        "python",
+        "react",
+        "ruby/rails",
+        "scala",
+        "shopify",
+        "swift",
+        "UI/UX",
+        "wordpress",
+        "blockchain",
+        "AI/ML",
+        "automation",
+        "project management",
+        "react native",
+        "rust",
+        "product management",
+        "unity",
+        "electron",
+        "spring",
+        "data analysis",
+        "laravel",
+        "Ethereum",
+        "graphic design",
+        "Typescript ",
+        "angular ",
+        "firebase",
+        "data engineering",
+        "Site Reliability",
+        "Symfony",
+        "startup",
+        "marketplace",
+        "next.js",
+        "flutter"
+      ],
+      "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
+      "location": "Northern America, LATAM, Europe, APAC",
+      "score": 6
     }
   ]
 }
