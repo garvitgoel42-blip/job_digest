@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:21:47.627893+00:00",
-  "total_matches": 4,
+  "generated_at": "2026-09-26T08:07:49.518796+00:00",
+  "total_matches": 3,
   "jobs": [
     {
       "source": "Lever:meesho",
@@ -63,15 +63,6 @@
       "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
       "location": "Northern America, LATAM, Europe, APAC",
       "score": 6
-    },
-    {
-      "source": "Lever:meesho",
-      "company": "meesho",
-      "title": "Assistant Manager - Risk Analytics - User Lending",
-      "tags": [],
-      "url": "https://jobs.lever.co/meesho/f74fc3fd-98ea-4a85-8232-f189b65878f8",
-      "location": "Bangalore, Karnataka",
-      "score": 4
     },
     {
       "source": "Lever:meesho",
